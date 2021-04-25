@@ -14,14 +14,14 @@ public class CsvFileReaderApplication {
 		SpringApplication.run(CsvFileReaderApplication.class, args);
 
 		{
-			// parsing a CSV file into Scanner class constructor
+			
 			Scanner sc = new Scanner(new File("CsvFile.csv"));
-			sc.useDelimiter(","); // sets the delimiter pattern
-			while (sc.hasNext()) // returns a boolean value
+			sc.useDelimiter(",");
+			while (sc.hasNext()) 
 			{
-				System.out.print(sc.next()); // find and returns the next complete token from this scanner
+				System.out.print(sc.next()); 
 			}
-			sc.close(); // closes the scanner
+			sc.close(); 
 		}
 	}
 
