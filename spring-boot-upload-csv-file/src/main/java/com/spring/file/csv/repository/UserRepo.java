@@ -2,8 +2,6 @@ package com.spring.file.csv.repository;
 
 
 import org.springframework.data.mongodb.repository.MongoRepository;
-import org.springframework.data.repository.CrudRepository;
-import org.springframework.data.repository.core.CrudMethods;
 import org.springframework.stereotype.Repository;
 
 import com.spring.file.entity.User;
